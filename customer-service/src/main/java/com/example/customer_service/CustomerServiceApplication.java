@@ -1,6 +1,7 @@
 package com.example.customer_service;
 
 import com.example.customer_service.config.ConfigTestRestController;
+import com.example.customer_service.config.CustomerConfigParams;
 import com.example.customer_service.entities.Customer;
 import com.example.customer_service.repository.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
@@ -10,7 +11,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@EnableConfigurationProperties(ConfigTestRestController.class) // <-- Correct usage
+@EnableConfigurationProperties(CustomerConfigParams.class)
 public class CustomerServiceApplication {
 
     public static void main(String[] args) {
@@ -18,20 +19,11 @@ public class CustomerServiceApplication {
     }
 
     @Bean
-    CommandLineRunner commandLineRunner(CustomerRepository customerRepository) {
+    CommandLineRunner initDatabase(CustomerRepository customerRepository) {
         return args -> {
-            customerRepository.save(Customer.builder()
-                    .name("Mohamed")
-                    .email("med@gmail.com")
-                    .build());
-            customerRepository.save(Customer.builder()
-                    .name("Imane")
-                    .email("imane@gmail.com")
-                    .build());
-            customerRepository.save(Customer.builder()
-                    .name("Yassine")
-                    .email("yassine@gmail.com")
-                    .build());
+            customerRepository.save(Customer.builder().name("Mohamed").email("med@gmail.com").build());
+            customerRepository.save(Customer.builder().name("Imane").email("imane@gmail.com").build());
+            customerRepository.save(Customer.builder().name("Yassine").email("yassine@gmail.com").build());
 
             customerRepository.findAll().forEach(c -> {
                 System.out.println("======================");
