@@ -10,6 +10,10 @@
 <br>
 <img src="https://github.com/user-attachments/assets/44fa54d9-cc75-4283-b494-a70f5596bc2c" alt="Capture d'écran" width="400" height="135">
 
+5. Tableau des services découverts par Eureka
+<img width="944" height="320" alt="image" src="https://github.com/user-attachments/assets/4faac668-e91a-47f3-a9a8-cac674a8b38a" />
+
+
 
 
 
