@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d4722ba-696a-43b7-b262-e8c95f9bd244" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/a.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventory_service/config/RestRepositoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventory_service/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventory_service/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billing_service/BillingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billing_service/BillingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/config/ConfigTestRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/config/ConfigTestRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discovery_service/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discovery_service/DiscoveryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/config/CustomerConfigParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/config/CustomerConfigParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gateway_service/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gateway_service/GatewayServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventory_service/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventory_service/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +50,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ConfigServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.CustomerServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.DiscoveryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -54,22 +64,39 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/GigaLap/Documents/S5-ENSET-2025/System_Distribuer/TP/Activite_Hettaba/customer-service/src/main/java/com/example/customer_service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GigaLap/Documents/S5-ENSET-2025/System_Distribuer/TP/Activite_Hettaba/billing-service/src/main/java/com/example/billing_service&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/GigaLap/Documents/S5-ENSET-2025/System_Distribuer/TP/Activite_Hettaba/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GigaLap\Documents\S5-ENSET-2025\System_Distribuer\TP\Activite_Hettaba\billing-service\src\main\java\com\example\billing_service" />
+      <recent name="C:\Users\GigaLap\Documents\S5-ENSET-2025\System_Distribuer\TP\Activite_Hettaba\inventory-service\src\main\java\com\example\inventory_service" />
+      <recent name="C:\Users\GigaLap\Documents\S5-ENSET-2025\System_Distribuer\TP\Activite_Hettaba\gateway-service\src\main\resources" />
       <recent name="C:\Users\GigaLap\Documents\S5-ENSET-2025\System_Distribuer\TP\Activite_Hettaba\customer-service\src\main\java\com\example\customer_service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\GigaLap\Documents\S5-ENSET-2025\System_Distribuer\TP\Activite_Hettaba" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomerServiceApplication">
+  <component name="RunManager" selected="Application.BillingServiceApplication">
+    <configuration name="BillingServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.billing_service.BillingServiceApplication" />
+      <module name="billing-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.billing_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.config_service.ConfigServiceApplication" />
       <module name="config-service" />
@@ -96,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.discovery_service.DiscoveryServiceApplication" />
-      <module name="discovery-service" />
+    <configuration name="GatewayServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gateway_service.GatewayServiceApplication" />
+      <module name="gateway-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.discovery_service.*" />
+          <option name="PATTERN" value="com.example.gateway_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.inventory_service.InventoryServiceApplication" />
+      <module name="inventory-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.inventory_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,9 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BillingServiceApplication" />
+        <item itemvalue="Application.GatewayServiceApplication" />
+        <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Application.CustomerServiceApplication" />
         <item itemvalue="Application.ConfigServiceApplication" />
-        <item itemvalue="Application.DiscoveryServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +168,9 @@
       <updated>1760986739560</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.http" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
